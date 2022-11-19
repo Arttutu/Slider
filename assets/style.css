@@ -20,6 +20,7 @@ main {
 .conteiner {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .conteiner__texto {
