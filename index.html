@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="assets\style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="glider.css">
+  <script src="./js/jquery.js"></script>
+  <script src="./js/main.js"></script>
 
 
 
-
-  <title>Card</title>
+  <title>Sldier</title>
 
 
 </head>
@@ -18,9 +20,12 @@
 <body>
   <main class="app">
     <div class="conteiner">
+
       <div class="conteiner__texto">
         <img class="conteiner__aspas" src="images/pattern-quotes.svg">
-        <p>“Bacharel em Administração de empresas pelo Centro Universitário Fiam- Faam, possuo facilidade em trabalhar
+        <p>“Bacharel em Administração de empresas pelo Centro Universitário Fiam- Faam, possuo
+          facilidade
+          em trabalhar
           em
           equipe, proatividade e foco são qualidades que me acompanham. Considero-me uma excelente profissional que
           estará
@@ -32,21 +37,22 @@
 
       </div>
       <div class="conteiner__imagem">
-        <img class="foto-pessoa" src="images/imagem-gil.jpeg" alt="foto-pessoa">
+        <img id="foto-pessoa" src="images/imagem-ana.jpeg" alt="foto-pessoa">
         <img class="foto-banner" src="images/pattern-bg.svg">
-        <button class="conteiner__button">
+        <button id="anterior">
           <img src="images/icon-prev.svg">
+        </button>
+        <button id="proximo">
           <img src="images/icon-next.svg">
         </button>
 
+
       </div>
     </div>
-
     <img class="conteiner__rodape" src="images/pattern-curve.svg">
-
   </main>
 
-
+  <script src="./js/main.js"></script>
 </body>
 
 

@@ -11,6 +11,9 @@
 }
 .app {
   height: 100vh;
+  width: 100%;
+  justify-content: center;
+
   overflow: hidden;
 }
 main {
@@ -52,7 +55,7 @@ p {
   position: relative;
   right: 350px;
 }
-.foto-pessoa {
+#foto-pessoa {
   z-index: 1;
   display: flex;
   border-radius: 1%;
@@ -72,11 +75,11 @@ p {
   color: var(--Grayish-Blue);
   font-size: 1rem;
 }
-.conteiner__button {
+#anterior {
   display: flex;
   position: relative;
   border: none;
-  right: 800px;
+  right: 810px;
   top: 250px;
   z-index: 3;
   gap: 2rem;
@@ -85,7 +88,19 @@ p {
   border-radius: 80%;
   cursor: pointer;
 }
-
+#proximo {
+  display: flex;
+  position: relative;
+  border: none;
+  right: 810px;
+  top: 250px;
+  z-index: 3;
+  gap: 2rem;
+  padding: 29px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 80%;
+  cursor: pointer;
+}
 .conteiner__rodape {
   position: absolute;
   z-index: 1;
