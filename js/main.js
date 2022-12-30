@@ -8,8 +8,9 @@ $(document).ready(function () {
     "“Bacharel em Administração de empresas pelo Centro Universitário Fiam- Faam, possuo facilidade em trabalhar em equipe, proatividade e foco são qualidades que me acompanham. Considero-me uma excelente profissional que estará agregando valor a sua equipe."
 
   let textoGil =
-    "Cozinheira proativa com domínio de diversas gastronomias e mais de 5 anos de experiência no ramo, atuo como uma souschef informal no meu emprego atual. Além da prática, tenho vasto conhecimento teórico adquirido na faculdade de gastronomia. Adoraria uma oportunidade de um entrevista, na qual discutirei como poderia utilizar meus talentos como chefe de partida do seu hotel.r"
+    "Cozinheira proativa com domínio de diversas gastronomias e mais de 5 anos de experiência no ramo, atuo como uma souschef informal no meu emprego atual. Além da prática, tenho vasto conhecimento teórico adquirido na faculdade de gastronomia. Adoraria uma oportunidade de um entrevista, na qual discutirei como poderia utilizar meus talentos como chefe de partida do seu hotel."
 
+  $("p").replaceWith("<p>" + textoAna + "</p>")
   $("#anterior").click(function () {
     if (contador == 0) {
       contador = -1
